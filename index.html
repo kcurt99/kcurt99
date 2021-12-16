@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Home - Kali Curtis</title>
+    <link rel="stylesheet" type="text/css" href="PersonalWebsite.css" />
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <div class="header">
+        <h1 class="title">Kali Curtis</h1>
+        <nav>
+            <a class="button" ; href="/#ABOUT">About Me</a>
+            <a class="button" ; href="/#PROJECTS">Projects</a>
+            <a class="button" ; target="_blank" ; href="https://www.linkedin.com/in/curtiskali/">LinkedIn</a>
+            <a class="button" ; target="_blank" ; href="https://kcurt99.github.io/Kali Resume.pdf">Resume (PDF)</a>
+        </nav>
+        <img src="https://media-exp1.licdn.com/dms/image/C5603AQFmxKsKFeMZWA/profile-displayphoto-shrink_400_400/0/1639268444448?e=1645056000&v=beta&t=IafuLQqQ2uODPi3XAXUxgR-CMwOo_Mp3nfpV10-9HBY" />
+    </div>
+    <div id="ABOUT">
+        <div class="sectionTitle"><h2 class="titleText">ABOUT ME</h2></div>
+        <div class="section">
+            <h3>Education</h3>
+            <p>University of Oklahoma</p>
+            <p><em>BBA, Management Information Systems</em></p>
+            <p>August 2018 — May 2022</p>
+        </div>
+        <div class="section">
+            <h3>Experience</h3>
+            <p>Gibbs College of Architecture</p>
+            <p><em>Communications Intern</em></p>
+            <p>April 2021 — Present</p>
+        </div>
+    </div>
+    <div id="PROJECTS">
+        <div class="sectionTitle"><h2 class="titleText">PROJECTS</h2></div>
+        <div class="section">
+            <h3 class="subhead">Commercial Projects</h3>
+            <h4>Research Page, Gibbs College of Architecture</h4>
+            <p><em>Fall 2021</em></p>
+            <p>
+                <ul>
+                    <li>
+                        Planned, designed, and edited the web page content
+                    </li>
+                    <li>
+                        Created an Excel database to keep record of the faculty's selected research publications
+                    </li>
+                    <li>
+                        Maintained communications with faculty members concerning their representation on the website
+                    </li>
+                </ul>
+            </p>
+            <a class="button" ; target="_blank" ; href="https://architecture.ou.edu/research/">View Page</a>
+        </div>
+        <div class="section">
+            <h4>The Gibbs Spotlight Podcasts, Gibbs College of Architecture</h4>
+            <p><em>Fall 2021 — Spring 2022</em></p>
+            <p>
+                I have the opportunity to interview talented architects and designers for the Gibbs Spotlight podcast series.
+                <ul>
+                    <li>
+                        Recorded and produced eight podcast episodes that discussed changes in the use of technology and methods of design in architecture
+                    </li>
+                    <li>
+                        Manages the development of the podcast series and produces podcasts for the Spring 2022 semester
+                    </li>
+                </ul>
+                Below, you can find a link to my interview with Dave Boeck, an alumnus and faculty member at Gibbs College.
+            </p>
+            <a class="button" ; target="_blank" ; href="https://gibbs.oucreate.com/architecture/the-gibbs-spotlight-dave-boeck/">View Post</a>
+        </div>
+        <div class="section">
+            <h3 class="subhead">Experiential Learning</h3>
+            <h4>MIS Database Project, Price College of Business</h4>
+            <p><em>Spring 2021</em></p>
+            <p>
+                <ul>
+                    <li>
+                        Designed, normalized, and implemented a unique database in SQL Server Management Studio
+                    </li>
+                    <li>
+                        Created a set of requested queries using sample data
+                    </li>
+                    <li>
+                        Worked with a team through the iterative process
+                    </li>
+                    <li>
+                        Communicated with the client to meet their needs
+                    </li>
+                </ul>
+            </p>
+            <a class="button" ; target="_blank" ; href="#">View Project</a>
+        </div>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
+<footer>
+    Designed by Kali Curtis
+</footer>
