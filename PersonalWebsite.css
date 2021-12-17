@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    font-size: 110%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F8FF;
 }
 
 .title {
@@ -16,6 +16,7 @@ img {
     width: 250px;
     border-radius: 10px;
     margin-top: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 footer {
@@ -35,7 +36,7 @@ footer {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #841617;
+    background-color: #192841;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -43,7 +44,7 @@ footer {
 }
 
     #myBtn:hover {
-        background-color: #555;
+        background-color: #e1e1e1;
     }
 
 .header {
@@ -66,8 +67,8 @@ footer {
 }
 
 .button {
-    background-color: #e1e1e1;
-    border: none;
+    background-color: white;
+    border: 2px solid black;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -75,4 +76,10 @@ footer {
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+    .button:hover {
+        background-color: #192841;
+        color: white;
+    }
