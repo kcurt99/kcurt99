@@ -12,26 +12,12 @@ body {
     font-size: 500%;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-img {
+/*img {
     width: 250px;
     border-radius: 10px;
     margin-top: 50px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
+}*/
 
 footer {
     text-align: center;
@@ -61,23 +47,8 @@ footer {
         background-color: #e1e1e1;
     }
 
-.header {
-    height: 100vh;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
 .sectionTitle {
     border-bottom: 3px solid #bbb;
-}
-
-.titleText {
-    margin-left: 20px;
-}
-
-.section {
-    margin: 3%;
 }
 
 .button {
@@ -94,6 +65,6 @@ footer {
 }
 
     .button:hover {
-        background-color: #192841;
+        background-color: black;
         color: white;
     }
