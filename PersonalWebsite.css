@@ -12,12 +12,22 @@ body {
     font-size: 500%;
 }
 
-/*img {
-    width: 250px;
-    border-radius: 10px;
-    margin-top: 50px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}*/
+.header {
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+nav {
+    padding: 3%;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    width: 50%;
+}
 
 footer {
     text-align: center;
