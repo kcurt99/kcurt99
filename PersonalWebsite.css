@@ -1,13 +1,16 @@
 ﻿
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #F0F8FF;
+}
+
+.margin {
     margin-left: 2in;
     margin-right: 2in;
+}
+
+nav {
+    margin-bottom: 10px;
 }
 
 .title {
@@ -61,6 +64,8 @@ h4 {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 200px;
+    margin: 5%;
 }
 
 footer {
