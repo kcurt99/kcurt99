@@ -4,6 +4,17 @@ body {
     background-color: #FFCD9B;
 }
 
+/*@media only screen and (min-height: 1224px) {
+    body {
+        margin: 0 2in 0 2in;
+        font-size: 80%; 
+    }
+}*/
+
+.title {
+    text-align: center;
+}
+
 .margin {
     margin: 0 1% 0 1%;
 }
@@ -14,21 +25,14 @@ nav {
 
 .nav-link {
     font-size: 20pt;
-    color: white;
 }
 
 .navbar-text {
     font-size: 20pt;
-    color: white;
-}
-
-navbar-toggler-icon {
-    background-color: white;
 }
 
 .navbar-brand {
     font-size: 20pt;
-    color: white;
 }
 
 i {
@@ -41,10 +45,6 @@ a {
 }
 
 
-.title {
-    font-size: 50pt;
-    text-align: center;
-}
 
 nav {
     background-color: indigo;
