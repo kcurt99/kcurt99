@@ -69,12 +69,13 @@ nav {
     font-size: larger;
 }
 
-h1 {
+h1, h2 {
     color: darkslateblue;
     font-weight: bold;
+    font-size: 28pt;
 }
 
-h4 {
+h3 {
     font-size: 20pt;
     color: indigo;
     font-weight: bold;
